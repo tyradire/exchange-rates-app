@@ -1,0 +1,48 @@
+.exchanger {
+  width: 100%;
+}
+
+.exchanger__container {
+  max-width: 400px;
+  margin: 20px auto 0;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-radius: 6px;
+  background-color: #fff;
+  border-bottom: 3px solid #282c34;
+}
+
+.exchanger__info {
+  text-align: left;
+}
+
+.exchanger__base {
+  margin: 0;
+  font-size: 1em;
+  line-height: 1em;
+  font-weight: normal;
+  color: #70757a;
+}
+
+.exchanger__converted {
+  margin: 10px 0;
+  font-size: 2.25em;
+  line-height: 1.2em;
+  font-weight: normal;
+  color: #000;
+}
+
+.exchanger__date {
+  margin: 0;
+  font-size: .75em;
+  line-height: 1em;
+  font-weight: normal;
+  color: #70757a;
+}
+
+.exchanger__inputs {
+  width: 100%;
+  margin-top: 16px;
+}
