@@ -26,7 +26,7 @@ function App() {
   useEffect(() => {
     axios.get(BANK_URL)
     .then(({data}) => {
-      setDate(data.Date.slice(5,10).split('-').reverse());
+      setDate(data.Timestamp.slice(5,10).split('-').reverse());
       data.Valute.RUB = {CharCode: "RUB", Name: "Российский рубль", Value: 1}
       setCurrencyObj(data.Valute)
       return axios.get(COUNTRIES_URL)
