@@ -11,7 +11,7 @@ ____
 `https://restcountries.com/v2/all`
 
 ## Ссылка
-Адрес домена сервера: `https://tyradire.github.io/exchange-rates-app`
+Адрес gh-pages: `https://tyradire.github.io/exchange-rates-app`
 
 ## Запуск
 `npm start`
